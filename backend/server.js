@@ -8,11 +8,12 @@ import messageRoutes from "./routes/message.routes.js";
 import userRoutes from "./routes/user.routes.js";
 
 import connectToMongoDB from "./db/connectToMongoDB.js";
-
-const PORT = process.env.PORT || 5000; 
-const app = express();
+import { app, server } from "./socket/socket.js";
 
 dotenv.config();   //without using this i cannot access environment variables from .env file.
+
+
+const PORT = process.env.PORT || 5000; 
 
 //Middlewares (Imp Note in Bottom)
 app.use(express.json());  //to parse the incoming requests with JSON payloads. (from req.body), used for auth.controller.js file
@@ -26,7 +27,7 @@ app.use("/api/users", userRoutes);
 //     res.send("Hii dekha ho gya na!!")            
 // }),
 
-app.listen(PORT, () => {
+server.listen(PORT, () => {
     connectToMongoDB();
     console.log(`Server is running on port ${PORT}`);
 })

@@ -1,6 +1,6 @@
-import Conversations from "./Conversations"
-import LogoutButton from "./LogoutButton"
-import SearchInput from "./SearchInput"
+import Conversations from "./Conversations";
+import LogoutButton from "./LogoutButton";
+import SearchInput from "./SearchInput";
 
 const Sidebar = () => {
   return (
@@ -10,8 +10,8 @@ const Sidebar = () => {
        <Conversations />
       <LogoutButton />
     </div>
-  )
-}
+  );
+};
 
 export default Sidebar;
 

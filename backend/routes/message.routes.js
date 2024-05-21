@@ -7,4 +7,4 @@ const router = express.Router();
 router.get("/:id", protectRoute ,getMessages); 
 router.post("/send/:id", protectRoute ,sendMessage); //protectRoute is a Authorization process middleware that we are adding in between them. 
 
-export default router;
+export default router; 
