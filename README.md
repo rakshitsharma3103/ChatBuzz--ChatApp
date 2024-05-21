@@ -12,3 +12,7 @@ Some Features of the webapp:
 **Online user status (Socket.io and React Context) 
 **Global state management with Zustand 
 **Error handling both on the server and on the client
+
+
+Deployment Link of Project : 
+https://chatbuzz-chatapp.onrender.com/
