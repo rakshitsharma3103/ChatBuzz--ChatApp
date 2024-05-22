@@ -1,6 +1,7 @@
 # ChatBuzz--ChatApp
 Introducing ChatBuzz, the real-time messaging platform built with the MERN stack and Socket.IO technology. 
 Seamlessly blending MongoDB, Express.js, React, and Node.js, this app offers a modern and intuitive user experience for effortless communication.
+Used hashing to hash password of user to increase the safety of users.
 
 # MERN Stack Real-Time ChatAPP
 
