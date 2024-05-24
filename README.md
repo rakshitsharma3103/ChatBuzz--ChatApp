@@ -15,5 +15,5 @@ Some Features of the webapp:
 **Error handling both on the server and on the client
 
 
-Deployment Link of Project : 
+Deployment Link of Live Project : 
 https://chatbuzz-chatapp.onrender.com/
