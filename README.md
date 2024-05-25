@@ -7,12 +7,12 @@ Used hashing to hash password of user to increase the safety of users.
 
 Some Features of the webapp:
 
-🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI 
+🌟 Tech stack: MERN + Socket.io + TailwindCSS
 🎃 Authentication && Authorization with JWT 
 **Real-time messaging with Socket.io 
 **Online user status (Socket.io and React Context) 
 **Global state management with Zustand 
-**Error handling both on the server and on the client
+**Error handling both on the server and on the client.
 
 
 Deployment Link of Live Project : 
