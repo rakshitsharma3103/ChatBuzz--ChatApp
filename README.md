@@ -16,6 +16,6 @@ Some Features of the webapp:
 
 
 Deployment Link of Live Project : 
-https://chatbuzz-chatapp.onrender.com
+https://chatbuzz-chatapp.onrender.com/
 
 I have deployed this ChatApp on Render.
